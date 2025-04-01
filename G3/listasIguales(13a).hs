@@ -5,4 +5,4 @@ listasIguales []  _ = False
 listasIguales _  [] = False
 
 listasIguales (x:xs) (y:ys) = (x == y) && (listasIguales xs ys)
---                           | otherwise = False
+--                           | otherwise = False E
